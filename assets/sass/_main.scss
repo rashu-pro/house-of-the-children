@@ -1,0 +1,13 @@
+.point{
+  &-center{
+    width:15rem;
+    height:15rem;
+    border-radius: 50%;
+    background: $color-point-light;
+    border:2px solid #007bff;
+
+    img{
+      max-width: 70%;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.balloon {
+  width: 140px;
+  height: 215px;
+  background-color: rgb(155, 192, 236);
+  position: relative;
+  clip-path: polygon(25% 0%, 86% 25%, 50% 100%, 0% 29%);
+}
+.balloon-holder {
+  position: relative;
+}
+.balloon-top {
+  position: absolute;
+  width: 121px;
+  height: 127px;
+  border-radius: 50%;
+  background-color: rgb(155, 192, 236);
+  top: -7px;
+}
+
+.point-div .icon-holder img {
+  position: absolute;
+  top: 36px;
+  left: -8px;
+}
+.point-div-2 .icon-holder img {
+  right: 0;
+  left: unset;
+  top: 21px;
+}
+.point-div-3 {
+  padding-right: 30px;
+}
+.point-div-3 .icon-holder img {
+  bottom: unset;
+  top: 39%;
+  left: -23px;
+}
+.point-div-4 .icon-holder img {
+  top: 32%;
+  bottom: unset;
+  left: unset;
+  right: -19px;
+}
+.point-div-5 .icon-holder img {
+  width: 4rem;
+  top: unset;
+  bottom: 24px;
+  left: 9px;
+}
+.point-div-6 .icon-holder img {
+  top: unset;
+  bottom: 34px;
+  right: -9px;
+  left: unset;
+}
+
+.point-center {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: rgb(155, 192, 236);
+  border: 2px solid #007bff;
+}
+.point-center img {
+  max-width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */

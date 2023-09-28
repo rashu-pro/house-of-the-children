@@ -1,0 +1,87 @@
+.balloon {
+  width: 140px;
+  height: 215px;
+  background-color: $color-point-light;
+  position: relative;
+  clip-path: polygon(25% 0%, 86% 25%, 50% 100%, 0% 29%);
+
+  &-holder{
+    position: relative;
+  }
+
+  &-top{
+    position: absolute;
+    width: 121px;
+    height: 127px;
+    border-radius: 50%;
+    background-color: $color-point-light;
+    top: -7px;
+  }
+}
+
+.point-div{
+  .icon-holder{
+    img{
+      position: absolute;
+      top: 36px;
+      left: -8px;
+    }
+  }
+
+  &-2{
+    .icon-holder{
+      img{
+        right: 0;
+        left: unset;
+        top: 21px;
+      }
+    }
+  }
+
+  &-3{
+    padding-right:30px;
+
+    .icon-holder{
+      img{
+        bottom: unset;
+        top: 39%;
+        left: -23px;
+      }
+    }
+
+  }
+
+  &-4{
+    .icon-holder{
+      img{
+        top: 32%;
+        bottom: unset;
+        left: unset;
+        right: -19px;
+      }
+    }
+  }
+
+  &-5{
+    .icon-holder{
+      img{
+        width: 4rem;
+        top: unset;
+        bottom: 24px;
+        left: 9px;
+      }
+    }
+  }
+
+  &-6{
+    .icon-holder{
+      img{
+        top: unset;
+        bottom: 34px;
+        right: -9px;
+        left: unset;
+      }
+
+    }
+  }
+}

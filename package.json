@@ -1,0 +1,27 @@
+{
+  "name": "house-of-the-children",
+  "version": "1.0.0",
+  "description": "house of the children, a charitable foundation",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass assets/sass:assets/css -w"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashu-pro/house-of-the-children.git"
+  },
+  "keywords": [
+    "children",
+    "education",
+    "charity"
+  ],
+  "author": "rashu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashu-pro/house-of-the-children/issues"
+  },
+  "homepage": "https://github.com/rashu-pro/house-of-the-children#readme"
+}
