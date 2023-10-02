@@ -1,0 +1,17 @@
+.painting-center{
+  max-width: 18rem;
+}
+.painting-around{
+  max-width: 14rem;
+}
+.main{
+  background: hsla(222, 100%, 2%, 1);
+
+  background: linear-gradient(180deg, hsla(222, 100%, 2%, 1) 0%, hsla(214, 100%, 10%, 1) 32%, hsla(214, 100%, 10%, 1) 43%, hsla(214, 100%, 10%, 1) 58%, hsla(214, 100%, 10%, 1) 65%, hsla(222, 100%, 2%, 1) 100%);
+
+  background: -moz-linear-gradient(180deg, hsla(222, 100%, 2%, 1) 0%, hsla(214, 100%, 10%, 1) 32%, hsla(214, 100%, 10%, 1) 43%, hsla(214, 100%, 10%, 1) 58%, hsla(214, 100%, 10%, 1) 65%, hsla(222, 100%, 2%, 1) 100%);
+
+  background: -webkit-linear-gradient(180deg, hsla(222, 100%, 2%, 1) 0%, hsla(214, 100%, 10%, 1) 32%, hsla(214, 100%, 10%, 1) 43%, hsla(214, 100%, 10%, 1) 58%, hsla(214, 100%, 10%, 1) 65%, hsla(222, 100%, 2%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00030A", endColorstr="#001531", GradientType=1 );
+}

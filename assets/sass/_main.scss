@@ -1,7 +1,7 @@
 .point{
   &-center{
-    width:15rem;
-    height:15rem;
+    width:12rem;
+    height:12rem;
     border-radius: 50%;
     background: $color-point-light;
     border:2px solid #007bff;
@@ -10,4 +10,19 @@
       max-width: 70%;
     }
   }
+}
+
+.second-row{
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+.shape-box{
+  max-width: 720px;
+  margin:0 auto;
+}
+
+.main{
+  background: -webkit-linear-gradient(360deg, hsla(198, 71%, 89%, 1) 0%, hsla(132, 15%, 94%, 1) 46%, hsla(84, 26%, 93%, 1) 63%, hsla(80, 100%, 90%, 1) 100%);
+  background-repeat: no-repeat;
 }

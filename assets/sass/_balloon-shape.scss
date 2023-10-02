@@ -7,6 +7,26 @@
 
   &-holder{
     position: relative;
+    &:after,&:before{
+      content: '';
+      width:3px;
+      height:80%;
+      bottom:0;
+      background: #0d6efd;
+      display: none;
+
+    }
+    &:after{
+
+    }
+    &:before{
+      height: 58%;
+      bottom: -27px;
+      background: #0d6efd;
+      position: absolute;
+      transform: rotate(-27deg) translateX(48px);
+      z-index: 9;
+    }
   }
 
   &-top{
@@ -16,9 +36,62 @@
     border-radius: 50%;
     background-color: $color-point-light;
     top: -7px;
+    outline: 3px solid #0d6efd;
   }
 }
 
+.shape-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 12rem;
+
+  &-left{
+    left:-12rem;
+    right:unset;
+    text-align: right;
+  }
+  &-right{
+    right: -12rem;
+    left: unset;
+  }
+}
+
+.first-row{
+  .shape-text{
+    top: 27%;
+    &-left{
+      text-align: right;
+      top: 28%;
+    }
+  }
+}
+
+.second-row{
+  .shape-text{
+    &-left{
+      left:-15rem;
+    }
+    &-right{
+      left:unset;
+      right: -15rem;
+    }
+  }
+}
+
+.third-row{
+  .shape-text{
+    top:70%;
+    &-left{
+
+    }
+    &-right{
+      right: -14rem;
+    }
+  }
+}
 .point-div{
   .icon-holder{
     img{
