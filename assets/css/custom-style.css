@@ -4,6 +4,24 @@
 .painting-around{
   max-width: 14rem;
 }
+
+
+.container{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+
 .main{
   background: hsla(222, 100%, 2%, 1);
 
@@ -13,5 +31,73 @@
 
   background: -webkit-linear-gradient(180deg, hsla(222, 100%, 2%, 1) 0%, hsla(214, 100%, 10%, 1) 32%, hsla(214, 100%, 10%, 1) 43%, hsla(214, 100%, 10%, 1) 58%, hsla(214, 100%, 10%, 1) 65%, hsla(222, 100%, 2%, 1) 100%);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00030A", endColorstr="#001531", GradientType=1 );
+  background: transparent;
+}
+.painting-wrapper{
+  min-height:200px;
+  padding-top:15px;
+  padding-bottom:15px;
+  background: linear-gradient(180deg, hsla(222, 100%, 2%, 1) 0%, hsla(214, 100%, 10%, 1) 32%, hsla(214, 100%, 10%, 1) 43%, hsla(214, 100%, 10%, 1) 58%, hsla(214, 100%, 10%, 1) 65%, hsla(222, 100%, 2%, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px){
+  .painting-wrapper{
+    min-height:350px;
+  }
+  .painting-around{
+    max-width: 14rem;
+  }
+}
+.painting-row{
+  background: #90a3a9;
+}
+.bg-green{
+  background: #308a36;
+}
+.bg-orange{
+  background: #d37a3c;
+}
+
+.row{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px){
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+
+.container{
+  margin:0 auto;
+}
+
+@media (min-width: 1200px){
+  .container{
+    max-width: 1140px;
+  }
+}
+
+.justify-content-center {
+  justify-content: center!important;
 }
